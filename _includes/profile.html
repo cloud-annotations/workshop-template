@@ -3,7 +3,7 @@
 >
   <img
     style="height: 72px; width: 72px; border-radius: 50%;"
-    src="{{ site.profile_photo }}"
+    src="{{ include.profile_photo }}"
   />
   <div
     style="display: flex; flex-direction: column; justify-content: space-between; margin-left: 14px"
@@ -11,13 +11,13 @@
     <div
       style="margin-top: 6px; font-size: 21px; font-weight: 600; line-height: 24px; color: rgba(0,0,0,0.84)"
     >
-      {{ site.display_name }}
+      {{ include.display_name }}
     </div>
     <div style="display: flex;">
-      {% if site.twitter_username %}
+      {% if include.twitter_username %}
       <a
         style="display: flex;"
-        href="https://twitter.com/{{ site.twitter_username }}"
+        href="https://twitter.com/{{ include.twitter_username }}"
       >
         <svg
           class="social-media-icon-svg"
@@ -32,10 +32,10 @@
           />
         </svg>
       </a>
-      {% endif %} {% if site.medium_username %}
+      {% endif %} {% if include.medium_username %}
       <a
         style="display: flex;"
-        href="https://medium.com/@{{ site.medium_username }}"
+        href="https://medium.com/@{{ include.medium_username }}"
       >
         <svg
           class="social-media-icon-svg"
@@ -49,10 +49,10 @@
           />
         </svg>
       </a>
-      {% endif %} {% if site.github_username %}
+      {% endif %} {% if include.github_username %}
       <a
         style="display: flex;"
-        href="https://github.com/{{ site.github_username }}/"
+        href="https://github.com/{{ include.github_username }}/"
       >
         <svg
           class="social-media-icon-svg"
@@ -67,10 +67,10 @@
           ></path>
         </svg>
       </a>
-      {% endif %} {% if site.linkedin_username %}
+      {% endif %} {% if include.linkedin_username %}
       <a
         style="display: flex;"
-        href="https://www.linkedin.com/in/{{ site.linkedin_username }}/"
+        href="https://www.linkedin.com/in/{{ include.linkedin_username }}/"
       >
         <svg
           class="social-media-icon-svg"
