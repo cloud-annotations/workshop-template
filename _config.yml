@@ -43,6 +43,7 @@ plugins:
 # Direct posts to specific url
 collections:
   workshop:
+    sort_by: order
     output: true
     permalink: /:path:output_ext
 
