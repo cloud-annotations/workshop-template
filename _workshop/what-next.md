@@ -1,6 +1,5 @@
 ---
 title: What next? # The title of the page
-date: 1970-01-03  
 order: 3          # Page order is set by order parameter
 ---
 
