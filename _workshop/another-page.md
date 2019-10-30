@@ -1,6 +1,6 @@
 ---
 title: Page Two     # The title of the page
-order: 2            # Page order is set by order parameter
+date: 0000-01-02    # Page order is set by date
 ---
 
 Lorem markdownum utrumque recentes primas exercetque potentem bracchia cupit.

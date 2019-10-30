@@ -1,6 +1,6 @@
 ---
 title: What next? # The title of the page
-order: 3          # Page order is set by order parameter
+date: 0000-01-03  # Page order is set by date
 ---
 
 Add a social badge by adding/modifying the following to your markdown:

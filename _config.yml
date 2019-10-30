@@ -20,21 +20,15 @@
 
 title: Workshop Template
 email: bourdakos1@gmail.com
-description: >-  # this means to ignore newlines until "baseurl:"
-  A template for a GitHub pages workshop stepper UI.
-baseurl: "/workshop-template" # the subpath of your site, e.g. /github-repo-name
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: A template for a GitHub pages workshop stepper UI.
 
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-feed
 
 # Direct posts to specific url
 collections:
   workshop:
-    sort_by: order
     output: true
     permalink: /:path:output_ext
 

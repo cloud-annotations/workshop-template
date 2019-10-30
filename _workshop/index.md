@@ -1,6 +1,6 @@
 ---
 title: Hello World  # The title of the page
-order: 1            # Page order is set by order parameter
+date: 0000-01-01    # Page order is set by date
 ---
 
 Lorem markdownum imitata. Causas caeli squalentia comes ictus guttura moenia,
