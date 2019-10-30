@@ -1,6 +1,5 @@
 ---
 title: Hello World  # The title of the page
-date: 1970-01-01    
 order: 1            # Page order is set by order parameter
 ---
 
