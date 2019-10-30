@@ -1,6 +1,7 @@
 ---
-title: Page Two # The title of the page
-date: 1970-01-02   # The page order is determined by date
+title: Page Two     # The title of the page
+date: 1970-01-02   
+order: 2            # Page order is set by order parameter
 ---
 
 Lorem markdownum utrumque recentes primas exercetque potentem bracchia cupit.
